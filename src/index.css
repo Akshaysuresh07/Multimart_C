@@ -1,0 +1,67 @@
+.breadcrumb {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  .breadcrumb a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .breadcrumb a:hover {
+    text-decoration: underline;
+  }
+
+
+
+  /* Sidebar.css */
+
+.sidebar {
+  background-color: #f8f4f4f0; 
+  color: #3b0d6c; 
+  padding: 20px;
+  height: 100%;
+  padding: 10px;
+}
+
+.sidebar-item {
+  margin-bottom: 10px;
+  border: none; 
+}
+.sidebar-item h4{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sidebar-item a {
+  color: #62036f; /* Set link color */
+  text-decoration: none;
+}
+
+.sidebar-item a:hover {
+  text-decoration: underline; 
+}
+
+/* .slick-slide {
+  margin: 0 5px;
+} */
+
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+.newsletter{
+  background-image: url('https://sasshoes-com.s3.us-west-2.amazonaws.com/img/banner-uplift-21.jpg');
+  height: 300px;
+  background-size: cover;
+padding: 100px 0;
+ background-repeat:  no-repeat scroll 50% / cover;
+}
+.prodcard {
+  transition: transform 0.3s ease-in-out;
+}
+
+.prodcard:hover {
+  transform: scale(1.05);
+}
